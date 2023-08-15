@@ -67,10 +67,10 @@ select {
   box-shadow: 0px 0px 20px rgba(109, 146, 192, 0.3);
 }
 .city-dropdown {
-  background-color: #191a20;
+  background-color: rgba(25, 26, 32, 0.75);
   border-radius: 10px;
   padding: 20px;
-  margin: 20px;
+  margin: 8px;
 }
 .date {
   opacity: 0.7;
