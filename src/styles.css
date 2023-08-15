@@ -13,7 +13,6 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
-  text-align: center;
   background-color: #21222b;
   color: white;
   margin-top: 50px;
@@ -29,4 +28,5 @@ h1 {
   font-weight: 100;
   margin: 0 auto;
   width: 100%;
+  text-align: center;
 }
