@@ -48,6 +48,8 @@ select {
 }
 .container {
   max-width: 600px;
+  display: flex;
+  flex-direction: column;
   margin: 20px auto;
 }
 .city {
@@ -74,9 +76,11 @@ select {
   opacity: 0.7;
 }
 .time {
-  font-size: 55px;
+  font-size: 60px;
 }
 .time small {
-  font-size: 25px;
+  font-size: 30px;
   vertical-align: middle;
+  color: #6d92c0;
+  margin-left: -8px;
 }
