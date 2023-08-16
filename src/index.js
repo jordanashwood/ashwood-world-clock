@@ -73,7 +73,7 @@ function setCityInterval(cityTimeZone, cityName) {
   <div class="city">
           <div>
             <h2>${cityName}</h2>
-            <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
+            <div class="date">${cityTime.format("dddd, MMMM Do YYYY")}</div>
           </div>
           <div class="time">${cityTime.format(
             "h:mm:ss"
