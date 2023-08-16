@@ -10,7 +10,7 @@ function updateTime() {
       "dddd, MMMM Do, YYYY"
     );
     losAngelesTimeElement.innerHTML = losAngelesTime.format(
-      "h:m:ss[<small>]A[</small]"
+      "h:mm:ss[<small>]A[</small]"
     );
   }
 
@@ -23,7 +23,7 @@ function updateTime() {
 
     saoPauloDateElement.innerHTML = saoPauloTime.format("dddd, MMMM Do, YYYY");
     saoPauloTimeElement.innerHTML = saoPauloTime.format(
-      "h:m:ss[<small>]A[</small]"
+      "h:mm:ss[<small>]A[</small]"
     );
   }
 
@@ -36,7 +36,7 @@ function updateTime() {
 
     londonDateElement.innerHTML = londonTime.format("dddd, MMMM Do, YYYY");
     londonTimeElement.innerHTML = londonTime.format(
-      "h:m:ss[<small>]A[</small]"
+      "h:mm:ss[<small>]A[</small]"
     );
   }
   // Sydney
@@ -48,7 +48,7 @@ function updateTime() {
 
     sydneyDateElement.innerHTML = sydneyTime.format("dddd, MMMM Do, YYYY");
     sydneyTimeElement.innerHTML = sydneyTime.format(
-      "h:m:ss[<small>]A[</small]"
+      "h:mm:ss[<small>]A[</small]"
     );
   }
 }
