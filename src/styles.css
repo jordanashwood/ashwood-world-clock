@@ -21,6 +21,10 @@ footer {
   text-align: center;
   background-color: #191a20;
   padding: 20px;
+  position: absolute;
+  bottom: -100px;
+  left: -10px;
+  width: 100%;
 }
 h1 {
   font-size: 80px;
