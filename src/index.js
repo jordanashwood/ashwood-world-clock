@@ -76,8 +76,8 @@ function updateCity(event) {
         `;
 }
 
-updateTime();
-setInterval(updateTime, 1000);
-
 let citiesSelect = document.querySelector("#city");
 citiesSelect.addEventListener("change", updateCity);
+
+updateTime();
+setInterval(updateTime, 1000);
